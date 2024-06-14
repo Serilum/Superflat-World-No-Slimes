@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="*"
+license="All rights reserved"
+issueTrackerURL="https://github.com/Serilum/.issue-tracker/labels/Mod:%20Superflat%20World%20No%20Slimes"
+logoFile="icon.png"
+
+[[mods]]
+modId="superflatworldnoslimes"
+version="3.3"
+displayName="Superflat World No Slimes"
+displayURL="https://serilum.com/mod/superflat-world-no-slimes"
+authors="Rick South"
+description='''Removes those pesky slimes when you're trying to be creative in a superflat world.
+'''
+credits='''Thank you very much to my Membership sponsors for supporting the development of this mod:  
+
+Alister, Andrean Olgo, aternosorg, BirdieMiner, Cherriesaurus, Jeremy Langford, Michael W. S., Rare Students, Shana Gitnick, Tyler Behl   
+
+If you would like to contribute too, check out https://serilum.com/donate. Appreciate it! <3   
+'''
+
+[[dependencies.superflatworldnoslimes]]
+    modId="collective"
+    mandatory=true
+    versionRange="[7.61,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.superflatworldnoslimes]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.21]"
+    ordering="NONE"
+    side="BOTH"
