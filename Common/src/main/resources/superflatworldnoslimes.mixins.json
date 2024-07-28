@@ -1,9 +1,8 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.superflatworldnoslimes.forge.mixin",
+  "package": "com.natamus.superflatworldnoslimes.mixin",
   "compatibilityLevel": "JAVA_17",
-  "refmap": "superflatworldnoslimes_forge.refmap.json",
   "mixins": [
 
   ],
