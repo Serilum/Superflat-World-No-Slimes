@@ -3,9 +3,7 @@ package com.natamus.superflatworldnoslimes.neoforge.events;
 import com.natamus.superflatworldnoslimes.events.SlimeEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.bus.api.SubscribeEvent;
-import net.neoforged.fml.common.EventBusSubscriber;
 
-@EventBusSubscriber
 public class NeoForgeSlimeEvent {
 	@SubscribeEvent
 	public static void onWorldJoin(EntityJoinLevelEvent e) {
