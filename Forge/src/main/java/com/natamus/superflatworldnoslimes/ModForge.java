@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-   		MinecraftForge.EVENT_BUS.register(new ForgeSlimeEvent());
+   		MinecraftForge.EVENT_BUS.register(ForgeSlimeEvent.class);
 	}
 
 	private static void setGlobalConstants() {
