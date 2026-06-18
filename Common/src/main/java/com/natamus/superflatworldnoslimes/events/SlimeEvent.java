@@ -2,7 +2,7 @@ package com.natamus.superflatworldnoslimes.events;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.entity.monster.Slime;
+import net.minecraft.world.entity.monster.cubemob.Slime;
 import net.minecraft.world.level.Level;
 
 public class SlimeEvent {
