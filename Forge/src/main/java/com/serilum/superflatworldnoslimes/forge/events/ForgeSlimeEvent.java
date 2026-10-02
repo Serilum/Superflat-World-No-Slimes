@@ -1,6 +1,6 @@
-package com.natamus.superflatworldnoslimes.forge.events;
+package com.serilum.superflatworldnoslimes.forge.events;
 
-import com.natamus.superflatworldnoslimes.events.SlimeEvent;
+import com.serilum.superflatworldnoslimes.events.SlimeEvent;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 

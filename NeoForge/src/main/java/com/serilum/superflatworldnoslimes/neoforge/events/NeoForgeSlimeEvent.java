@@ -1,6 +1,6 @@
-package com.natamus.superflatworldnoslimes.neoforge.events;
+package com.serilum.superflatworldnoslimes.neoforge.events;
 
-import com.natamus.superflatworldnoslimes.events.SlimeEvent;
+import com.serilum.superflatworldnoslimes.events.SlimeEvent;
 import net.neoforged.neoforge.event.entity.EntityJoinLevelEvent;
 import net.neoforged.bus.api.SubscribeEvent;
 

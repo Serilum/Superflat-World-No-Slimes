@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "com.natamus.superflatworldnoslimes.mixin",
+  "package": "com.serilum.superflatworldnoslimes.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
 
