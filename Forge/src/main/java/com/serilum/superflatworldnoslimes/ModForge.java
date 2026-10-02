@@ -1,9 +1,9 @@
-package com.natamus.superflatworldnoslimes;
+package com.serilum.superflatworldnoslimes;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.superflatworldnoslimes.forge.events.ForgeSlimeEvent;
-import com.natamus.superflatworldnoslimes.util.Reference;
+import com.serilum.superflatworldnoslimes.forge.events.ForgeSlimeEvent;
+import com.serilum.superflatworldnoslimes.util.Reference;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -28,7 +28,7 @@ public class ModForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-   		MinecraftForge.EVENT_BUS.register(ForgeSlimeEvent.class);
+		MinecraftForge.EVENT_BUS.register(ForgeSlimeEvent.class);
 	}
 
 	private static void setGlobalConstants() {

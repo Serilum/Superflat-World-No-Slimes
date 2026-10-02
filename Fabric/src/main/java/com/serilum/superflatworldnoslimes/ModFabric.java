@@ -1,10 +1,10 @@
-package com.natamus.superflatworldnoslimes;
+package com.serilum.superflatworldnoslimes;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
 import com.natamus.collective.fabric.callbacks.CollectiveEntityEvents;
-import com.natamus.superflatworldnoslimes.events.SlimeEvent;
-import com.natamus.superflatworldnoslimes.util.Reference;
+import com.serilum.superflatworldnoslimes.events.SlimeEvent;
+import com.serilum.superflatworldnoslimes.util.Reference;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.level.Level;

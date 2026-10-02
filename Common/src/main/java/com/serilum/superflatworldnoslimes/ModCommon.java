@@ -1,4 +1,4 @@
-package com.natamus.superflatworldnoslimes;
+package com.serilum.superflatworldnoslimes;
 
 
 public class ModCommon {
