@@ -1,9 +1,9 @@
-package com.natamus.superflatworldnoslimes;
+package com.serilum.superflatworldnoslimes;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.superflatworldnoslimes.neoforge.events.NeoForgeSlimeEvent;
-import com.natamus.superflatworldnoslimes.util.Reference;
+import com.serilum.superflatworldnoslimes.neoforge.events.NeoForgeSlimeEvent;
+import com.serilum.superflatworldnoslimes.util.Reference;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
@@ -26,7 +26,7 @@ public class ModNeoForge {
 	}
 
 	private void loadComplete(final FMLLoadCompleteEvent event) {
-   		NeoForge.EVENT_BUS.register(NeoForgeSlimeEvent.class);
+		NeoForge.EVENT_BUS.register(NeoForgeSlimeEvent.class);
 	}
 
 	private static void setGlobalConstants() {

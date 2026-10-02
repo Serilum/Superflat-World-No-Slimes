@@ -1,4 +1,4 @@
-package com.natamus.superflatworldnoslimes.events;
+package com.serilum.superflatworldnoslimes.events;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.Entity;
